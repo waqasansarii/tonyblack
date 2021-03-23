@@ -1,0 +1,239 @@
+h1 { margin: 0; }
+
+a {
+    color: #999;
+	text-decoration: none;
+}
+
+a:hover { color: #1dabb8; }
+
+fieldset {
+    border: none;
+	margin: 0;
+}
+
+input {
+    border: none;
+	font-family: inherit;
+	font-size: inherit;
+	margin: 0;
+	outline: none;
+	-webkit-appearance: none;
+}
+
+input[type="submit"] { cursor: pointer; }
+
+.clearfix { *zoom: 1; }
+.clearfix:before, .clearfix:after {
+    content: "";
+	display: table;	
+}
+.clearfix:after { clear: both; }
+
+/* ---------- LOGIN-FORM ---------- */
+
+.login_container{
+    background-image: url('http://tonyblack.biz/images/login/bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    /* background-position-y: -70px; */
+    min-height: 100vh;
+    /* margin-top: -70px; */
+    background-size: cover;
+}
+.form_main_div{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+}
+
+#login-form {
+	margin: 70px auto;
+	width: 340px;
+}
+
+#login-form h1 {
+	background-color: #282830;
+	border-radius: 5px 5px 0 0;
+	color: #fff;
+	font-size: 14px;
+	padding: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#login-form fieldset {
+	background: #fff;
+	border-radius: 0 0 5px 5px;
+	padding: 20px;
+	position: relative;
+}
+
+#login-form fieldset:before {
+	background-color: #fff;
+	content: "";
+	height: 8px;
+	left: 50%;
+	margin: -4px 0 0 -4px;
+	position: absolute;
+    /* position: relative; */
+	top: 0;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	width: 8px;
+}
+
+#login-form input {
+	font-size: 14px;
+}
+
+#login-form input[type="text"],
+#login-form input[type="password"] {
+	border: 1px solid #dcdcdc;
+	padding: 12px 10px;
+	width: 255px;
+	margin-top:-1px;
+}
+
+#login-form input:first-child{
+	border-radius: 3px 3px 0 0;
+}
+.captcha_input{
+    background:url('http://tonyblack.biz/capcha/index.php?1228829879') right no-repeat #fff
+}
+
+#login-form input:last-child{
+	border-radius: 0px 0px 3px 3px;
+}
+
+#login-form input[type="submit"] {
+	background: #1dabb8;
+	border-radius: 3px;
+	color: #fff;
+	float: right;
+	font-weight: bold;
+	margin-top: 20px;
+	padding: 12px 20px;
+    margin-right: 22px;
+}
+
+#login-form input[type="submit"]:hover { background: #198d98; }
+
+#login-form footer {
+	font-size: 12px;
+	margin-top: 26px;
+    /* border: 2px solid; */
+    display: flex;
+    width: fit-content;
+    justify-content: space-around;
+    margin: 30px 22px;
+
+}
+
+.info {
+	background: #e5e5e5;
+	border-radius: 50%;
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+	margin: 0 10px 0 0;
+	text-align: center;
+	width: 20px;
+    /* border: 2px solid; */
+
+}
+
+/* ????? ???? vladmaxi, ????? ??????? */
+.vladmaxi-top{
+	line-height: 24px;
+	font-size: 11px;
+	background: rgba(0, 0, 0, 0.08);
+	text-transform: uppercase;
+	z-index: 9999;
+	position: fixed;
+	top:0;
+	left:0;
+	width:100%;
+	font-family: calibri;
+	font-size: 13px;
+	box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
+	-webkit-animation: slideOut 0.5s ease-in-out 0.3s backwards;
+}
+@-webkit-keyframes slideOut{
+	0%{top:-30px; opacity: 0;}
+	100%{top:0px; opacity: 1;}
+}
+
+.vladmaxi-top a{
+	padding: 0px 10px;
+	letter-spacing: 1px;
+	color: #333;
+	text-shadow: 0px 1px 1px #fff;
+	display: block;
+	float: left;
+}
+.vladmaxi-top a:hover{
+	background: #fff;
+}
+.vladmaxi-top span.right{
+	float: right;
+}
+.vladmaxi-top span.right a{
+	float: left;
+	display: block;
+}
+
+.bottom_tag{
+    width:468px;
+    /* position:absolute; */
+    /* left:50%;
+    margin-left:-234px;  */
+    /* margin: 0px auto; */
+    margin-left: -70px;
+    margin-top:50px;
+    text-align:center; 
+    font-size:24px; 
+    border:10px solid #000;
+    color:#000;
+	padding: 15px;
+}
+
+ul.error{
+    margin-bottom:20px;
+    /* border: 2px solid; */
+    color: gray;
+    text-align: left;
+	margin-left: 30px;
+}
+
+
+@media screen and (max-width:470px){
+    #login-form{
+        width: 300px;
+    }
+    ul.error{
+        font-size: .9em;
+        margin-left: -15px;
+    }
+    .bottom_tag{
+        width: 350px;
+        margin-left: -30px;
+    }
+}
+@media screen and (max-width:342px){
+    #login-form{
+        width: 300px;
+    }
+    ul.error{
+        font-size: .9em;
+        margin-left: -15px;
+    }
+    .bottom_tag{
+        width: 300px;
+        margin-left: -03px;
+    }
+}
