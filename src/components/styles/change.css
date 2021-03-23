@@ -1,0 +1,33 @@
+.change_pass_main_div{
+    margin: 30px auto;
+    /* border: 2px solid; */
+    /* text-align: center; */
+}
+.change{
+    width: 150px;
+}
+.change_table{
+    /* width: 100%; */
+    margin: 0px auto;
+}
+.change_pass_main_div::-webkit-scrollbar{
+    width: 4px;
+    height: 2px;
+}
+.change_pass_main_div::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  .change_pass_main_div::-webkit-scrollbar-thumb {
+    background: rgb(192, 189, 189); 
+  }
+@media screen and (max-width:470px){
+    .change_table{
+        margin-left: 10px;
+    }
+    .change_table{
+        width: 420px;
+    }
+    .change_pass_main_div{
+        overflow-x: auto;
+    }
+}

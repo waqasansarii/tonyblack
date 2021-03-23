@@ -1,0 +1,21 @@
+.headin_container{
+    width: 940px;
+    margin: 0px auto;
+   margin-top: 50px;
+}
+.heading{
+    font-size: 2em;
+    font-weight: 700;
+}
+
+@media screen and (max-width:990px){
+    .headin_container{
+        width: 100%;
+        padding-left: 20px;
+    }
+}
+@media screen and (max-width:535px){
+    .headin_container{
+        padding-left: 10px;
+    }
+}

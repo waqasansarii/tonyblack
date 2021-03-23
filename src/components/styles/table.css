@@ -1,0 +1,48 @@
+.main_table_div>table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 0px;
+    text-indent: 0;
+    width: 940px;
+    margin: 10px auto;
+    margin-top: 20px;
+    font-size: 1em;
+}
+.acenter{
+    text-align: center;
+}
+
+.list1 thead td {
+    border-bottom: 2px solid #333;
+    background: #f3f3f3;
+    color: #333;
+    font-weight: 300;
+    padding: 6px;
+}
+.list1 tbody td{
+    padding: 10px;
+    border-bottom: 1px solid #505050;
+    /* padding: 6px; */
+}
+.main_table_div::-webkit-scrollbar{
+    width: 6px;
+    height: 2px;
+}
+.main_table_div::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  .main_table_div::-webkit-scrollbar-thumb {
+    background: rgb(192, 189, 189); 
+  }
+@media screen and (max-width:990px){
+    .main_table_div{
+        overflow-x: auto;
+        max-width: 960px;
+        margin: 0px 15px;
+    }
+}
+@media screen and (max-width:535px){
+    .main_table_div{
+        margin: 0px 10px;
+    }
+}

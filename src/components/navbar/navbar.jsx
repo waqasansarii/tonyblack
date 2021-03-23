@@ -54,7 +54,7 @@ export default function Navbar() {
                                     <Link className='subnav_link' to='/archive'>ARCHIVE</Link>
                                 </li>
                                 <li>
-                                    <Link className='subnav_link' to='/billing'>BILLING</Link>
+                                    <Link className='subnav_link' to='/balance'>BILLING</Link>
                                 </li>
                                 <li>
                                     <Link className='subnav_link' to='/finance'>FINANCE</Link>

@@ -6,6 +6,11 @@ import Signup from '../components/signup/signup';
 import Signup_Success from '../components/signup/signup_success';
 import Home from '../pages/home'
 import FilterNews from '../pages/filter_news'
+import Search_bin from '../pages/search_bin'
+import Search_DOB_SSN from '../pages/search_dob_ssn'
+import BalancePage from '../pages/balance'
+import Change_pass_page from '../pages/change_pass'
+import Finance from '../pages/finance'
 
 const RouterApp = ()=> {
     return(
@@ -17,6 +22,11 @@ const RouterApp = ()=> {
                 <Route path='/signup' component={Signup} />
                 <Route path='/home' component={Home} />
                 <Route path='/news/:id'  component={FilterNews}/>
+                <Route path='/search_bins' component={Search_bin} />
+                <Route path='/search_dob_ssn' component={Search_DOB_SSN} />
+                <Route path='/balance' component={BalancePage} />
+                <Route path='/change_password' component={Change_pass_page} />
+                <Route  path='/finance' component={Finance}/>
             </Switch>
         </Router>
     )
