@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/searchDob.css'
+import SubmitButton from '../submitButton'
 
 
 const SearchDobForm = () => {
@@ -90,9 +91,8 @@ const SearchDobForm = () => {
                             <tr>
                                 <td>&nbsp;</td>
                                 <td className='dob_send_btn'>
-                                    {/* <input name="sub" type="submit" value=" Send " /> */}
-                                    <input className='search_btn dob_btn' type="button" value="sent" />
-
+                                    {/* <input className='search_btn dob_btn' type="button" value="sent" /> */}
+                                    <SubmitButton type='button' value='sent' />
                                 </td>
                                 <td>&nbsp;</td>
                             </tr>

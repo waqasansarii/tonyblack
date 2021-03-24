@@ -31,36 +31,39 @@ export default function Navbar() {
                     <Link className='logo_name' to='/home'>tonyblack.biz</Link>
                     {hide ?
                         // <>
-                            <ul className={!hide ? 'nav_ul ' : 'nav_ul mob_nav_ul'}>
+                            <ul className={!hide ? 'nav_ul whute' :
+                             'nav_ul mob_nav_ul whute'
+                            // null
+                             }>
                                 <li>
-                                    <Link className='subnav_link' to='/cvv'>CVV</Link>
+                                    <Link className='nav_link' to='/cvv'>CVV</Link>
                                 </li>
                                 <li>
-                                    <Link className='subnav_link' to='/rdp/vnc'>RDP/VNC</Link>
+                                    <Link className='nav_link' to='/rdp_vnc'>RDP/VNC</Link>
                                 </li>
                                 <li>
-                                    <Link className='subnav_link' to='/dumps'>DUMPS</Link>
+                                    <Link className='nav_link' to='/dumps'>DUMPS</Link>
                                 </li>
                                 <li>
-                                    <Link className='subnav_link' to='/banks'>BANKS</Link>
+                                    <Link className='nav_link' to='/banks'>BANKS</Link>
                                 </li>
                                 <li>
-                                    <Link className='subnav_link' to='/paypals'>PAYPALS</Link>
+                                    <Link className='nav_link' to='/paypals'>PAYPALS</Link>
                                 </li>
                                 <li>
-                                    <Link className='subnav_link' to='/basket'>BASKET</Link>
+                                    <Link className='nav_link' to='/basket'>BASKET</Link>
                                 </li>
                                 <li>
-                                    <Link className='subnav_link' to='/archive'>ARCHIVE</Link>
+                                    <Link className='nav_link' to='/archive'>ARCHIVE</Link>
                                 </li>
                                 <li>
-                                    <Link className='subnav_link' to='/balance'>BILLING</Link>
+                                    <Link className='nav_link' to='/balance'>BILLING</Link>
                                 </li>
                                 <li>
-                                    <Link className='subnav_link' to='/finance'>FINANCE</Link>
+                                    <Link className='nav_link' to='/finance'>FINANCE</Link>
                                 </li>
                                 <li>
-                                    <Link className='subnav_link' to='/support'>SUPPORT</Link>
+                                    <Link className='nav_link' to='/support'>SUPPORT</Link>
                                 </li>
                                 <div className='sub_navlist_div'>
                                     <Subnav_list className='subnav_mob_list' open={hide} />

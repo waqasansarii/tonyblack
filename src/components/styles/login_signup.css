@@ -34,12 +34,13 @@ input[type="submit"] { cursor: pointer; }
 
 .login_container{
     background-image: url('http://tonyblack.biz/images/login/bg.png');
-    background-repeat: no-repeat;
-    background-size: 100% 100vh;
+    background-repeat:repeat;
+    /* background-size: 100% 100vh; */
     /* background-position-y: -70px; */
     min-height: 100vh;
     /* margin-top: -70px; */
-    background-size: cover;
+    /* background-size: ; */
+	
 }
 .form_main_div{
     display: flex;
@@ -50,7 +51,7 @@ input[type="submit"] { cursor: pointer; }
 
 #login-form {
 	margin: 70px auto;
-	width: 340px;
+	width: 300px;
 }
 
 #login-form h1 {
@@ -118,7 +119,7 @@ input[type="submit"] { cursor: pointer; }
 	font-weight: bold;
 	margin-top: 20px;
 	padding: 12px 20px;
-    margin-right: 22px;
+    margin-right: 3px;
 }
 
 #login-form input[type="submit"]:hover { background: #198d98; }
@@ -130,7 +131,7 @@ input[type="submit"] { cursor: pointer; }
     display: flex;
     width: fit-content;
     justify-content: space-around;
-    margin: 30px 22px;
+    margin: 30px 3px;
 
 }
 
@@ -193,13 +194,13 @@ input[type="submit"] { cursor: pointer; }
     /* left:50%;
     margin-left:-234px;  */
     /* margin: 0px auto; */
-    margin-left: -70px;
+    margin-left: -90px;
     margin-top:50px;
     text-align:center; 
     font-size:24px; 
     border:10px solid #000;
     color:#000;
-	padding: 15px;
+	padding: 18px;
 }
 
 ul.error{
@@ -217,7 +218,7 @@ ul.error{
     }
     ul.error{
         font-size: .9em;
-        margin-left: -15px;
+        /* margin-left: -15px; */
     }
     .bottom_tag{
         width: 350px;
@@ -230,7 +231,7 @@ ul.error{
     }
     ul.error{
         font-size: .9em;
-        margin-left: -15px;
+        /* margin-left: -15px; */
     }
     .bottom_tag{
         width: 300px;

@@ -1,12 +1,12 @@
 import React from 'react'
 import '../styles/error.css'
 
-const Error = () => {
+const Error = ({error}) => {
     return (
         <div className='error_container'>
             <div className='main_error_div'>
                 <ul className='error_ul'>
-                    <li>No transactions</li>
+                    <li>{error}</li>
                 </ul>
             </div>
         </div>

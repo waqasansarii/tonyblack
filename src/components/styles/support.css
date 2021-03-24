@@ -1,0 +1,115 @@
+table{
+    border-collapse:separate;
+    border-spacing:0; 
+    border:0px; 
+    text-indent:0; 
+    /* width:97%;  */
+    margin:10px auto;
+}
+.table2{
+    width:50%; 
+    margin-left:400px;
+    text-align: end;
+}
+.table2 td{
+    padding:7px;
+    /* border: 2px solid; */
+}
+.textArea{
+
+    /* border: 2px solid; */
+    padding-top: 90px !important;
+}
+.table2 td:nth-child(1){
+    width:130px; 
+    font-weight:400; 
+    text-align:right;
+}
+.table2 td:nth-child(2){
+    width:200px; 
+    text-align:right;
+}
+.table2 td:nth-child(2) input[type="text"], .table2 td:nth-child(2) textarea
+{
+    width:350px;
+    padding: 3px 7px;
+    border-radius: 3px;
+    box-shadow: #ddd 0px 0px 1px 1px;
+    /* margin: 5px 15px; */
+    width: auto;
+    border: 1px solid #ddd;
+    width: 380px;
+    outline: none;
+}
+.table2 td:nth-child(3){
+    font-size:11px; 
+    padding-left:10px;
+    width: 150px;
+}
+
+.supprt_inp{
+    padding: 3px 7px;
+    border-radius: 3px;
+    box-shadow: #ddd 0px 0px 1px 1px;
+    width: auto;
+    border: 1px solid #ddd;
+    width: 380px;
+}
+
+@media screen and (max-width:1100px){
+.table2{
+    margin-left: 100px;
+    /* border: 2px solid; */
+    width: 650px;
+}
+}
+@media screen and (max-width:770px){
+    .table2{
+        margin-top: 30px;
+        margin-left: 20px;
+        width: 480px;
+    }
+   .table2 td:nth-child(2) input[type="text"], .table2 td:nth-child(2) textarea
+   {
+    width: 250px;
+   }
+   .table2 td:nth-child(1){
+    width:80px; 
+  }
+
+}
+
+@media screen and (max-width:535px){
+    .table2 {
+        margin-top: 30px;
+        margin-left: 20px;
+        width: 70%;
+    }
+   .table2 td:nth-child(2) input[type="text"], .table2 td:nth-child(2) textarea
+   {
+    width: 250px;
+}
+.table2 td:nth-child(2){
+    
+    text-align: left;
+   }
+   .sent_btn_td{
+       text-align: right !important;
+   }
+   .table2 td:nth-child(1){
+    width:80px; 
+    text-align: left;
+  }
+  .table2 td:nth-child(3){
+    display: none;
+}
+}
+@media screen and (max-width:360px){
+    .table2 td:nth-child(2) input[type="text"], .table2 td:nth-child(2) textarea
+    {
+     width: 220px;
+ }
+ .table2{
+     margin-left: 10px;
+ }
+}

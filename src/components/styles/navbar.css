@@ -4,18 +4,23 @@
 
 .navbar_container{
 
-    background: black;
+    /* background: black; */
+    background-image: url('http://tonyblack.biz/images/layout/siteHeaderMap.png');
+    background-color: rgb(22, 22, 22);
     border-bottom: 1px solid rgb(104, 103, 103);
 }
 .main_navbar_div{
-    padding: 10px ;
+    padding: 20px 10px;
     width: 960px;
     margin: 0px auto;
-    padding-bottom: 25px;
+    padding-bottom: 35px;
 }
 .navbar_div{
     display: flex;
     justify-content: space-between;
+}
+.whute{
+    color: white !important;
 }
 .logo_name{
     font-size: 2em;
@@ -44,19 +49,27 @@
     list-style: none;
     /* border: 2px solid; */
     width: 75%;
-    padding-top: 5px;
-    color: white;
+    padding-top: 4px;
+    color: white ;
 }
 .nav_link{
     color: inherit;
     /* border: 2px solid white; */
     padding: 6px 13px;
     text-shadow: 0 1px 0 #000;
+    display: flex;
+
 }
 .nav_link:hover{
-    color: #fed327;
+    /* color: #fed327;
     background-color: rgba(59, 59, 59, 0.582);
+    border-radius: 5px; */
     border-radius: 5px;
+    color: #fed327;
+	background: #333;
+	-webkit-box-shadow: inset 0 3px 6px #191919;
+	-moz-box-shadow: inset 0 3px 6px #191919;
+	box-shadow: inset 0 3px 6px #191919;
 }
 .sub_navlist_div{
     display: none;
@@ -66,7 +79,11 @@
    /* sub navbar css  */
 
 .subNavbar_container{
-    background: black;
+    /* background: black; */
+    background-image: url('http://tonyblack.biz/images/layout/siteHeaderMap.png');
+    background-color: rgb(22, 22, 22);
+    /* background-image: url('http://tonyblack.biz/images/layout/siteHeaderPattern.png'); */
+    /* background-size: contain; */
 }
 .username_para{
     font-size: 1.8em;
@@ -88,6 +105,7 @@
 }
 
 .subnav_ul{
+    list-style: none;
     display: flex;
     width: 600px;
     padding-top: 0px;
@@ -95,14 +113,20 @@
 }
 .subnav_link{
     color: #fed327;
-    display: flex;
     /* border: 2px solid white; */
     padding: 6px 8px;
+    display: flex;
+
 }
 .subnav_link:hover{
-    background-color: rgba(59, 59, 59, 0.582);
-    color: #fed327;
+    /* background-color: rgba(59, 59, 59, 0.582);
+    color: #fed327; */
     border-radius: 5px;
+    color: #fed327;
+	background: #333;
+	-webkit-box-shadow: inset 0 3px 6px #191919;
+	-moz-box-shadow: inset 0 3px 6px #191919;
+	box-shadow: inset 0 3px 6px #191919;
 }
 .nav_icon{
     color: gray;
@@ -148,8 +172,8 @@
     .nav_link{
         width: 100%;
     }
-    .subnav_link{
-        padding: 15px;
+    .subnav_link,.nav_link{
+        padding: 10px;
     }
     .subnav_link:hover{
         color: white;

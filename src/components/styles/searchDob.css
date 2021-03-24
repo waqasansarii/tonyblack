@@ -30,12 +30,6 @@
     padding: 6px;
     margin-top: 20px;
 }
-.select_dob_form{
-    outline: none;
-    margin-left: 5px;
-    border: 1px solid gray;
-
-}
 .dob_send_btn{
     text-align: end ;
 }

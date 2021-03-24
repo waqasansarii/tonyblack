@@ -5,6 +5,18 @@
   margin: 0px ;
   padding: 0px;
   box-sizing: border-box;
-  font: 13px "Droid Sans", "Helvetica Neue", Helvetica, sans-serif;
+  /* font: 13px ; */
+  font-family:"Droid Sans", "Helvetica Neue", Helvetica, sans-serif ;
+  font-size: 13px;
+}
+
+select{
+  padding: 3px 7px;
+  border-radius: 3px;
+  box-shadow: #ddd 0px 0px 1px 1px;
+  margin: 0 5px;
+  width: auto;
+  border: 1px solid #ddd;
+  outline: none;
 }
 

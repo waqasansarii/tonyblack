@@ -1,13 +1,16 @@
 .container{
 }
 .footer_container{
-    background-color: black;
     margin-top: 100px;
-    padding-top: 40px;
+    background-color: black;
 }
 .main_footer_div{
+    padding-top: 40px;
     padding-bottom: 30px;
     border-bottom: 1px solid rgb(90, 89, 89);
+    background:#222 url('http://tonyblack.biz/images/layout/siteFooterPattern.png') left top repeat;
+    /* background-color: black; */
+
 }
 .siteFooter
 {
@@ -30,20 +33,26 @@
     list-style: none;
 }
 .columnNavigation>li{
-   margin-top: 20px;
-   margin-left: -10px;
+    margin-top: 20px;
+    margin-left: -10px;
 }
 .footer_link{
     color: #fed327;
-   padding: 10px 100px 10px 10px;
-   /* border: 2px solid; */
-
+    padding: 10px 100px 10px 10px;
+    /* border: 2px solid; */
+    
 }
 .footer_link:hover{
-    background: rgb(54, 54, 54);
+    /* background: rgb(54, 54, 54);
+    border-radius: 5px;
+    color: #fed327; */
     border-radius: 5px;
     color: #fed327;
-
+	background: #333;
+	-webkit-box-shadow: inset 0 3px 6px #191919;
+	-moz-box-shadow: inset 0 3px 6px #191919;
+	box-shadow: inset 0 3px 6px #191919;
+    
 }
 .siteFooterBar{
     width: 960px;
@@ -55,7 +64,7 @@
 .backToTop{
     /* text-decoration: none; */
     color: #fed327;
-
+    
 }
 .backToTop:hover{
     color: #fed327;

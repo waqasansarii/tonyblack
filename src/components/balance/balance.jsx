@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/balance.css'
+import SubmitButton from '../submitButton'
 
 const Balance = () => {
     return (
@@ -7,9 +8,10 @@ const Balance = () => {
             <div className='balance_main_div'>
                 <p className='dollar_equal'>1$ = 0.000033 BTC</p>
                 <form className='dollar_form'>
-                <label htmlFor="bin">SUM: </label>
+                    <label htmlFor="bin">SUM: </label>
                     <input className='bin_input dlr' type="text" defaultValue='1.00'/>
-                    <input className='search_btn' type="button" value="Replenish BTC"/>
+                    {/* <input className='search_btn' type="button" value="Replenish BTC"/> */}
+                    <SubmitButton  type="button" value="Replenish BTC"/>
                 </form>
                 <div className='img_div'>
                     <img src="http://tonyblack.biz/images/ico_btc.png" alt=""/>

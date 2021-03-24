@@ -10,6 +10,11 @@
 }
 .dollar_form{
     margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.dollar_form>label{
+    margin-top: 3px;
 }
 .img_div{
     margin-top: 25px;

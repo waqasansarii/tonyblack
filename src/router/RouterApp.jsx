@@ -11,6 +11,9 @@ import Search_DOB_SSN from '../pages/search_dob_ssn'
 import BalancePage from '../pages/balance'
 import Change_pass_page from '../pages/change_pass'
 import Finance from '../pages/finance'
+import Rdp_Vnc from '../pages/Rdp_Vnc'
+import Support from '../pages/support'
+import Bank from '../pages/bank'
 
 const RouterApp = ()=> {
     return(
@@ -27,6 +30,9 @@ const RouterApp = ()=> {
                 <Route path='/balance' component={BalancePage} />
                 <Route path='/change_password' component={Change_pass_page} />
                 <Route  path='/finance' component={Finance}/>
+                <Route  path='/rdp_vnc' component={Rdp_Vnc}/>
+                <Route path='/support' component={Support} />
+                <Route path='/banks' component={Bank} />
             </Switch>
         </Router>
     )
