@@ -1,0 +1,27 @@
+.rules_main_div{
+    width: 940px;
+    margin: 0px auto;
+}
+.rules_main_div>h4{
+    margin-top: 20px;
+
+}
+.last{
+    margin-top: 20px;
+}
+.para_rule{
+    margin-top: 5px;
+}
+
+@media screen and (max-width:990px){
+    .rules_main_div{
+        width: 100%;
+        padding: 0px 20px;
+    }
+}
+@media screen and (max-width:535px){
+    .rules_main_div{
+        width: 100%;
+        padding: 0px 10px;
+    }
+}

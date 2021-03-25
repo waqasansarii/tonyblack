@@ -14,6 +14,12 @@ import Finance from '../pages/finance'
 import Rdp_Vnc from '../pages/Rdp_Vnc'
 import Support from '../pages/support'
 import Bank from '../pages/bank'
+import Dumps from '../pages/dumps'
+import Paypals from '../pages/paypals'
+import Cvv from '../pages/cvv'
+import Basket from '../pages/basket'
+import Rules from '../pages/rules'
+import Archive from '../pages/archive'
 
 const RouterApp = ()=> {
     return(
@@ -33,6 +39,12 @@ const RouterApp = ()=> {
                 <Route  path='/rdp_vnc' component={Rdp_Vnc}/>
                 <Route path='/support' component={Support} />
                 <Route path='/banks' component={Bank} />
+                <Route path='/dumps' component={Dumps} />
+                <Route path='/paypals' component={Paypals} />
+                <Route path='/cvv' component={Cvv} />
+                <Route path='/basket' component={Basket} />
+                <Route path='/rules' component={Rules} />
+                <Route path='/archive' component={Archive} />
             </Switch>
         </Router>
     )

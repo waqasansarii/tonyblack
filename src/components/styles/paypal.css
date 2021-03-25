@@ -1,0 +1,29 @@
+.blnce_label{
+    margin-left: 8px;
+    margin-top: 5px;
+    /* border: 2px solid; */
+}
+.paypal{
+    width: 60px;
+}
+
+.paypal_flex{
+    display: flex;
+}
+@media screen and (max-width:670px){
+    .blnce_label{
+        margin-top: 14px;
+        /* padding-top: 15px; */
+    }
+    .paypal{
+        /* height: 20px; */
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:390px){
+    .paypal_flex{
+       margin-left: 20px;
+       margin-right: 20px;
+       flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,19 @@
+.subLink_div{
+    /* margin: 20px auto; */
+    margin-top: 20px;
+    text-align: center;
+}
+
+.subLink_div>.basket_sub_links{
+    padding: 4px 12px;
+    color: #fed327;
+    border: 0;
+    border-radius: 3px;
+    background: #222;
+    box-shadow: inset 0 1px 0 #383838, 0 2px 6px #060606;
+    margin: 0 5px;
+    vertical-align: top;
+}
+.basket_sub_links:hover{
+    text-decoration: underline;
+}

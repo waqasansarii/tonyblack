@@ -13,13 +13,13 @@ function Footer() {
                                 <h5 className='footer_head'>Main <span>Navigation</span></h5>
                                 <ul className="columnNavigation">
                                     <li>
-                                        <Link className='footer_link' to="/user/replenish"><strong style={{ fontWeight: 'bold' }}> Billing</strong></Link>
+                                        <Link className='footer_link' to="/balance"><strong style={{ fontWeight: 'bold' }}> Billing</strong></Link>
                                     </li>
                                     <li>
                                         <Link className='footer_link' to="/finance"><strong style={{ fontWeight: 'bold' }}>Finance</strong></Link>
                                     </li>
                                     <li>
-                                        <Link className='footer_link' to="/info/rules"><strong style={{ fontWeight: 'bold' }}>Rules</strong></Link>
+                                        <Link className='footer_link' to="/rules"><strong style={{ fontWeight: 'bold' }}>Rules</strong></Link>
                                     </li>
                                     <li>
                                         <Link className='footer_link' to="/support"><strong style={{ fontWeight: 'bold' }}>Support</strong></Link>
@@ -49,7 +49,7 @@ function Footer() {
                                     <h5 className='footer_head'>VNC/DS</h5>
                                     <ul className="columnNavigation">
                                         <li>
-                                            <Link className='footer_link' to="/dedserv">VNC/DS <strong style={{ fontWeight: 'bold' }}>shop</strong></Link>
+                                            <Link className='footer_link' to="/rdp_vnc">VNC/DS <strong style={{ fontWeight: 'bold' }}>shop</strong></Link>
                                         </li>
                                         <li>
                                             <Link className='footer_link' to="/basket/dedserv">VNC/DS <strong style={{ fontWeight: 'bold' }}>basket</strong></Link>

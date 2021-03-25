@@ -1,0 +1,20 @@
+.dumps_flex{
+    display: flex;
+}
+.dumps{
+    width: 160px;
+}
+
+@media screen and (max-width:670px){
+    .dumps_flex{
+        flex-wrap: wrap;
+        justify-content: stretch;
+        /* margin: 25px 10px; */
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-top: 15px;
+    }
+    .dumps_flex >.dumps ,.dumps_slct,.dumps_btn{
+        margin-top: 10px;
+    }
+}
