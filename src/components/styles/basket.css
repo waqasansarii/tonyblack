@@ -17,3 +17,18 @@
 .basket_sub_links:hover{
     text-decoration: underline;
 }
+
+@media screen and (max-width:495px){
+    .subLink_div{
+        border: 2px solid;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 10px;
+        /* margin: 30px; */
+        padding-top: 10px;
+    }
+    .subLink_div>.basket_sub_links{
+        /* margin-top: 5px; */
+        margin-bottom: 10px;
+    }
+}
