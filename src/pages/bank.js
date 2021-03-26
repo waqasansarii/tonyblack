@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useLayoutEffect} from 'react'
 import Error from '../components/error/error'
 import Footer from '../components/footer/footer'
 import Heading from '../components/heading/heading'
@@ -8,6 +8,11 @@ import {Bank_TableData} from '../data/tableData'
 import '../components/styles/bank.css'
 
 const Bank = () => {
+
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+    });
+
     return (
         <div>
             <MainNavbarComp />

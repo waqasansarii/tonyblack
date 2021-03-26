@@ -86,7 +86,7 @@ const SearchDobForm = () => {
                                 <td>
                                     <input className='bin_input captcha_input' type="text" />
                                 </td>
-                                <td>- code from the image</td>
+                                <td className='dob_code'>- code from the image</td>
                             </tr>
                             <tr>
                                 <td>&nbsp;</td>

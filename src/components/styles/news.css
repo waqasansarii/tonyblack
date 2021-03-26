@@ -3,6 +3,7 @@
     margin: 0px auto;
     margin-top: 50px;
     padding: 10px;
+    line-height: 1.6em;
 }
 .news_head{
     font-size: 2em;
@@ -26,13 +27,15 @@
 .more:hover{
     cursor: pointer;
     color: #e0b301;
-
+    text-decoration: underline;
 }
 .more_icon{
     margin: -1px 3px;
     font-size: 1.5em;
 }
-
+.extra_para{
+    margin-top: 5px;
+}
 
 
 @media screen and (max-width:990px){

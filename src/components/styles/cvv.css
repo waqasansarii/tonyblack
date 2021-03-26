@@ -13,6 +13,9 @@
     width: fit-content;
     
 }
+.white{
+    color: gainsboro;
+}
 .cvv_form{
     width: 800px;
     margin: 25px auto;
@@ -20,10 +23,39 @@
 }
 .cvv_form>.bin_input {
     /* margin-top: 10px; */
-    margin-left: 5px;
+    margin-left: 15px;
     margin-bottom: 10px;
 }
+.cvv_slt,.bin_input{
+    margin-left: 15px;
+}
 
+.added{
+    position: absolute;
+    background: #dbfcdb;
+    border: 1px solid #06b006;
+    border-radius: 3px;
+    padding: 5px;
+    color: #06b006;
+    margin: 5px 0;
+    width: 70%;
+    list-style: none;
+}
+
+@media screen and (max-width:990px){
+    .added{
+        left: 20px;
+        width: 90%;
+        right: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width:758px){
+    .bin_input{
+        margin-top: 10px;
+    }
+}
 @media screen and (max-width:830px){
     .cvv_form{
         /* border: 2px solid; */
@@ -31,6 +63,41 @@
 
     }
     .cvv_form>.cvv_slt{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:500px){
+    .cvv_form{
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+
+    }
+    .filter_btn{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:414px){
+    .cvv_form{
+        display: flex;
+        justify-content: inherit;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        margin-right: 20px;
+    }
+    .cvv_slt{
+        width: 80%;
+    }
+    .bin_input{
+        margin-bottom: 0px;
+        margin-top: 10px;
+        width: 80%;
+    }
+    .br{
+        display: none !important;
+    }
+    .filter_btn{
         margin-top: 10px;
     }
 }

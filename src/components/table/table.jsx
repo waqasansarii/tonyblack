@@ -1,10 +1,9 @@
 import React from 'react'
 import '../styles/table.css'
-import { data } from '../../data/tableData'
 
 
-const Table = ({ head, body }) => {
-    console.log(data)
+const Table = ({ head, body, button, buyButton, Delete }) => {
+    // console.log(data)
 
     return (
         <div className='table_container'>
@@ -12,29 +11,32 @@ const Table = ({ head, body }) => {
                 <table className="list1 acenter">
                     <thead>
                         <tr>
-                            {data.head && data.head.map((val, i) => (
+                            {head.head && head.head.map((val, i) => (
                                 <td key={i}>{val}</td>
                             ))}
                         </tr>
                     </thead>
                     <tbody>
-                        {data.body && data.body.map((val) => (
-                            <tr>
-                                <>
-                                    <td>{val.name}</td>
-                                    <td>{val.name}</td>
-                                    <td>{val.name}</td>
-                                    <td>{val.name}</td>
-                                    <td>{val.name}</td>
-                                    <td>{val.name}</td>
-                                </>
-                            </tr>
-                        ))
+                        {body.body && body.body.map((val, i) => (
+                            <tr key={i}>
 
-                        }
-                        {/* {body.body && body.body.map((val, i) => (
-                                <td key={i}>{val}</td>
-                            ))} */}
+                                <td  >{val.bin ? val.bin : null}</td>
+                                <td  >{val.exp}</td>
+                                <td >{val.name}</td>
+                                <td >{val.tick}</td>
+                                <td >{val.country}</td>
+                                <td >{val.type}</td>
+                                <td >{val.state}</td>
+                                <td >{val.city}</td>
+                                <td >{val.zip}</td>
+                                <td >{val.ssn}</td>
+                                <td >{val.dob}</td>
+                                <td >{val.base}</td>
+                                <td >{val.cost}</td>
+                                <td >{button ? button : null}</td>
+                                <td >{buyButton ? (buyButton) : null}{Delete ? Delete : null}</td>
+                            </tr>
+                        ))}
 
 
                     </tbody>

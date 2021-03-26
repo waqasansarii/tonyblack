@@ -22,6 +22,7 @@ import Rules from '../pages/rules'
 import Archive from '../pages/archive'
 
 const RouterApp = ()=> {
+   
     return(
         <Router >
             {/* <Navbar /> */}

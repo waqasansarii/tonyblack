@@ -18,6 +18,18 @@
     text-decoration: underline;
 }
 
+.basket_price_div{
+    text-align: center;
+    margin-top: 40px;
+}
+.basket_price {
+    font-size: 1.48em;
+    color: rgb(68, 67, 67);
+    margin-bottom: 5px;
+}
+.basket_strong{
+    font-size: 1.1em;
+}
 @media screen and (max-width:495px){
     .subLink_div{
         border: 2px solid;

@@ -17,6 +17,8 @@ export default function News() {
                         <strong style={{ fontWeight: 'bold' }}> {value.strong}</strong>
                          {value.date}
                     </p>
+                    <p className='extra_para'>{value.para && value.para}</p>
+                    <p className='extra_para'>{value.para2}</p>
                 </div>
                 <div className='more_div'>
                     <Link className='more' to={`/news/${value.id}`}><span> More </span><BsArrowRight className='more_icon' /></Link>

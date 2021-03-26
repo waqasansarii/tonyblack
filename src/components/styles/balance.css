@@ -7,11 +7,15 @@
 }
 .dlr{
     width: 80px;
+    /* border: 2px solid; */
 }
 .dollar_form{
     margin-top: 10px;
     display: flex;
     justify-content: center;
+}
+.start{
+    text-align: left;
 }
 .dollar_form>label{
     margin-top: 3px;

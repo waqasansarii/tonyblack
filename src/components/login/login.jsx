@@ -18,9 +18,9 @@ const  Login=() =>{
                 <div id="login-form">
                     <h1>Login</h1>
                     <fieldset>
-                        <ul className="error">
+                        {/* <ul className="error">
                             <li> Image code is entered incorrectly.</li>
-                        </ul>
+                        </ul> */}
                         <form onSubmit={handleSubmit}>
                             <div>
                                 <input name="login" type="text" maxlength="18" placeholder="Login" value="" />

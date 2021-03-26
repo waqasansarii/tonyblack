@@ -19,9 +19,9 @@ const Signup=()=> {
                 <div id="login-form">
                     <h1>REGISTER</h1>
                     <fieldset>
-                        <ul className="error">
+                        {/* <ul className="error">
                             <li>Image code is entered incorrectly.</li>
-                        </ul>
+                        </ul> */}
                         <form onSubmit={handleSubmit} >
                             <div>
                                 <input name="login" type="text" maxlength="18" placeholder="Login" value="" />

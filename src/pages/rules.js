@@ -1,10 +1,16 @@
-import React from 'react'
+import React,{useLayoutEffect} from 'react'
 import Footer from '../components/footer/footer'
 import Heading from '../components/heading/heading'
 import MainNavbarComp from '../components/navbar'
 import '../components/styles/rules.css'
 
 const Rules = () => {
+
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+    });
+
+
     return (
         <div>
             <MainNavbarComp />
@@ -74,14 +80,12 @@ const Rules = () => {
                             3.8) We didnt checked card to VBV,so we can not guarantee that there is no protection VBV on the CC.
                         </p>
                     </div>
-                    <div className='last'>
+                    <div className='last rules_main_div'>
                         <h4>For the use of hacks - BAN</h4>
                         <h4>
                             In case of problems with enrollment, please contact our support.
                         </h4>
                     </div>
-
-
                 </div>
             </div>
             <Footer />

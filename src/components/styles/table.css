@@ -3,7 +3,7 @@
     border-spacing: 0;
     border: 0px;
     text-indent: 0;
-    width: 900px;
+    width: 940px;
     margin: 10px auto;
     margin-top: 20px;
     font-size: 1em;
@@ -22,7 +22,12 @@
 .list1 tbody td{
     padding: 10px;
     border-bottom: 1px solid #505050;
+    font-size: .9em;
     /* padding: 6px; */
+}
+.list1 tbody tr:hover{
+    background: #f3f3f3;
+
 }
 .main_table_div::-webkit-scrollbar{
     width: 6px;

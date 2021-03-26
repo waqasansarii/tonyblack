@@ -10,7 +10,8 @@
     font-weight: 700;
 }
 .search_dob_form_main_div{
-    margin: 30px;
+    margin: 30px 0px;
+    /* border: 2px solid; */
 }
 /* .search_dob_form>div{
     margin-top: 10px;
@@ -22,6 +23,7 @@
     text-indent: 0;
     margin-top: 20px;
     font-size: 1em;
+    margin-left: 60px;
     /* border: 2px solid; */
 }
 .search_dob_table tbody tr td {
@@ -30,8 +32,15 @@
     padding: 6px;
     margin-top: 20px;
 }
+.search_dob_table tbody tr:hover{
+    background: #f3f3f3;
+
+}
 .dob_send_btn{
     text-align: end ;
+}
+.select_dob_form{
+    margin-left: 15px;
 }
 
 @media screen and (max-width:990px){
@@ -52,5 +61,15 @@
     }
     .search_dob_table tbody tr td{
         padding: 6px 0px;
+    }
+}
+
+@media screen and (max-width:435px){
+    .search_dob_table{
+        margin-left: 0px;
+        
+    }
+    .dob_code{
+        display: none;
     }
 }
