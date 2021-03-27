@@ -2,10 +2,10 @@ import React from 'react'
 import '../styles/footer.css'
 import { Link } from 'react-router-dom'
 
-function Footer() {
+function Footer({className}) {
     return (
         <div className='container'>
-            <div className='footer_container'>
+            <div className={`footer_container ${className}`}>
                 <div className='main_footer_div'>
                     <div className="siteFooter">
                         <div className="flex">
@@ -80,7 +80,7 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                    <div className="siteFooterBar">
+                    <div className={`siteFooterBar ` }>
                         <div className="center">
                             <div className='copyRight'>
                                 <img src="http://tonyblack.biz/images/logos/siteFooterBarLogo.png" alt="" />

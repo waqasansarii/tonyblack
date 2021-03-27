@@ -16,7 +16,7 @@ function Search_bin() {
             <MainNavbarComp />
             <Heading head='Search Bins'/>
             <BinSearch />
-            <Footer />
+            <Footer className='padding_bottom' />
         </div>
     )
 }

@@ -4,6 +4,7 @@
     margin-top: 50px;
     padding: 10px;
     line-height: 1.6em;
+    /* min-height: 100vh; */
 }
 .news_head{
     font-size: 2em;
@@ -37,11 +38,21 @@
     margin-top: 5px;
 }
 
+.padding_bottom{
+    padding-bottom: 38px;
+    /* margin-top: 100px; */
+    /* border: 2px solid red; */
+    /* background-color: black; */
+}
 
 @media screen and (max-width:990px){
     .main_news_div{
         width: 100%;
         padding:10px 30px ;
+
+    }
+    .padding_bottom{
+        margin-top: 85px !important;
     }
 } 
 @media screen and (max-width:500px){

@@ -44,9 +44,12 @@ const Cvv_filter = () => {
                     <input type="text" className='bin_input dumps' placeholder='Bin1,Bin2' />
                     <input type="text" className='bin_input dumps' placeholder='Zip' />
                     <br className='br'/>
+                    <br className='br'/>
                     <select className='cvv_slt'>
                         <option value="base">Bin types</option>
-                        <option value=""></option>
+                        <option value="">DEBIT</option>
+                        <option value="">CREDIT</option>
+                        <option value="">CHARGE</option>
                     </select>
                     <select className='cvv_slt'>
                         <option value="base">Bin levels (Price:0.1$)</option>

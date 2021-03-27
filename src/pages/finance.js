@@ -16,7 +16,7 @@ const Finance = () => {
             <MainNavbarComp />
             <Heading head='Finance'/>
             <Error  error='•  No transactions'/>
-            <Footer />
+            <Footer className='padding_bottom'/>
         </div>
     )
 }

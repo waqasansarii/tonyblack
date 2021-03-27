@@ -19,4 +19,7 @@ select{
   border: 1px solid #ddd;
   outline: none;
 }
+/* .app{
+  min-height: 100vh;
+} */
 

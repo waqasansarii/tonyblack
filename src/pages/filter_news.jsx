@@ -39,7 +39,7 @@ function FilterNews() {
 
                 </div>
             </div>
-            <Footer />
+            <Footer className='padding_bottom' />
         </div>
     )
 }

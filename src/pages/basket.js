@@ -32,7 +32,7 @@ const Basket = () => {
             <Table head={basket_TableData} body={basket_TableData}
                 button={<SubmitButton type='button' value='Buy' />}
                 buyButton={<SubmitButton type='button' value='Buy and check' />}
-                Delete={<SubmitButton type='button' value='Delete' />}
+                Delete={<SubmitButton type='button' value='Delete' className='dlt_btn' />}
             />
             <Error error='•  Basket is empty' />
             <div className='basket_price_container'>

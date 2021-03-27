@@ -30,6 +30,12 @@
 .basket_strong{
     font-size: 1.1em;
 }
+
+.dlt_btn{
+    margin-top: 5px;
+}
+
+
 @media screen and (max-width:495px){
     .subLink_div{
         border: 2px solid;

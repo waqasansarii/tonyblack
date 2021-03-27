@@ -1,8 +1,12 @@
 .container{
 }
 .footer_container{
-    margin-top: 100px;
+    margin-top: 33px;
     background-color: black;
+    /* position: absolute; */
+    /* bottom: 0px; */
+    /* width: 100%; */
+    /* min-height: 100vh; */
 }
 .main_footer_div{
     padding-top: 40px;
