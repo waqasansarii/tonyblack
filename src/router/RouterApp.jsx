@@ -28,7 +28,7 @@ const RouterApp = ()=> {
             {/* <Navbar /> */}
             <Switch>
                 <Route exact path='/' component={Login} />
-                <Route path='/register_success'  component={Signup_Success}/>
+                <Route  path='/register_success'  component={Signup_Success}/>
                 <Route path='/signup' component={Signup} />
                 <Route path='/home' component={Home} />
                 <Route path='/news/:id'  component={FilterNews}/>

@@ -15,9 +15,9 @@ export default function Signup_Success() {
                             <input name="sub" type="submit" value="Login" />
                         </Link>
                     </fieldset>
-                        <div className='bottom_tag' >
-                            <p style={{ fontSize: '14px' }}>Сдается место для рекламы</p>
-                        </div>
+                    <div className='bottom_tag' >
+                        <p style={{ fontSize: '14px' }}>Сдается место для рекламы</p>
+                    </div>
 
                 </div>
             </div>

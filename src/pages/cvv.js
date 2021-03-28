@@ -1,4 +1,4 @@
-import React, { useState, useEffect,useLayoutEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import Footer from '../components/footer/footer'
 import Heading from '../components/heading/heading'
 import MainNavbarComp from '../components/navbar'
@@ -11,16 +11,17 @@ import '../components/styles/cvv.css'
 
 const Cvv = () => {
 
-    useLayoutEffect(() => {
+
+    React.useEffect(() => {
         window.scrollTo(0, 0)
-    });
+    }, []);
+
 
     let [add, setAdd] = useState(false)
     let [dis, setDis] = useState(false)
     let [value, setValue] = useState('In Basket')
 
     const handleAdd = (e) => {
-        console.log(e.target.value)
         setValue('Wait...')
         setDis(true)
         setTimeout(() => {

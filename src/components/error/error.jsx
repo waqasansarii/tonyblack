@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/error.css'
 
-const Error = ({error,className,strong}) => {
+const Error = ({ error, className, strong }) => {
     return (
         <div className='error_container'>
             <div className='main_error_div'>

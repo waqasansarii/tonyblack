@@ -29,7 +29,6 @@ const Balance = () => {
                 <form className='dollar_form'>
                     <label htmlFor="bin">SUM: </label>
                     <input className='bin_input dlr' type="text" defaultValue='1.00' />
-                    {/* <input className='search_btn' type="button" value="Replenish BTC"/> */}
                     <SubmitButton type="button" value="Replenish BTC" onclick={() => handleError()} />
                 </form>
                 <div className='img_div'>

@@ -9,7 +9,6 @@
     .dumps_flex{
         flex-wrap: wrap;
         justify-content: stretch;
-        /* margin: 25px 10px; */
         margin-left: 12px;
         margin-right: 12px;
         margin-top: 15px;

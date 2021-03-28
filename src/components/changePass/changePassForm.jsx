@@ -39,7 +39,6 @@ const ChangePassForm = () => {
                             <tr>
                                 <td>&nbsp;</td>
                                 <td className='dob_send_btn'>
-                                    {/* <input name="sub" type="submit" value=" Send " /> */}
                                     <input className='search_btn dob_btn' type="button" value="Change" />
 
                                 </td>

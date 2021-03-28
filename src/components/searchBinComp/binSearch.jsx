@@ -21,7 +21,6 @@ function BinSearch() {
                 <form className='bin_search_form' onSubmit={handleSubmit}>
                     <label htmlFor="bin">Bins : </label>
                     <input className='bin_input' type="text" placeholder='1000000, 1000002, 10000003' />
-                    {/* <input className='search_btn' type="button" value="Search"/> */}
                     <SubmitButton value='Search' type='button' onclick={() => handleTableShow()} />
                 </form>
                 {show ?

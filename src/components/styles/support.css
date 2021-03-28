@@ -3,7 +3,6 @@ table{
     border-spacing:0; 
     border:0px; 
     text-indent:0; 
-    /* width:97%;  */
     margin:10px auto;
 }
 .table2{
@@ -13,11 +12,9 @@ table{
 }
 .table2 td{
     padding:7px;
-    /* border: 2px solid; */
 }
 .textArea{
 
-    /* border: 2px solid; */
     padding-top: 90px !important;
 }
 .table2 td:nth-child(1){

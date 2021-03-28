@@ -1,15 +1,15 @@
 import React from 'react'
 import '../styles/login_signup.css'
 import { Link } from 'react-router-dom'
-import {useHistory} from 'react-router-dom'
+import { useHistory } from 'react-router-dom'
 
-const Signup=()=> {
+const Signup = () => {
 
     // let history = useHistory();
 
-    const handleSubmit = (e)=>{
-       e.preventDefault();
-    //    history.push('/register_success')
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        //    history.push('/register_success')
     }
 
     return (
@@ -30,9 +30,9 @@ const Signup=()=> {
                                 <input name="email" type="text" maxlength="50" placeholder="E-Mail" value="" />
                                 <input name="capcha" type="text" maxlength="5" placeholder="Code from the image" className='captcha_input' />
                             </div>
-                           <Link to='/register_success'>
-                            <input name="sub" type="submit"  value="Register" />
-                           </Link>
+                            <Link to='/register_success'>
+                                <input name="sub" type="submit" value="Register" />
+                            </Link>
                             <footer className="clearfix">
                                 <p>
                                     <span className="info">&raquo;</span>

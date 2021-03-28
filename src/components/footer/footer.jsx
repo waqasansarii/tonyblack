@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/footer.css'
 import { Link } from 'react-router-dom'
 
-function Footer({className}) {
+function Footer({ className }) {
     return (
         <div className='container'>
             <div className={`footer_container ${className}`}>
@@ -80,17 +80,17 @@ function Footer({className}) {
                         </div>
                     </div>
                 </div>
-                    <div className={`siteFooterBar ` }>
-                        <div className="center">
-                            <div className='copyRight'>
-                                <img src="http://tonyblack.biz/images/logos/siteFooterBarLogo.png" alt="" />
-                                <p> Jabber: sell-cc@jabber.no or sell-cc@exploit.im ICQ:727273264 <br />2010-2018 &copy; Sell cc. All rights reserved.</p>
-                            </div>
-                            <a className="backToTop" href="#">Back to Top
-                            <img src="http://tonyblack.biz/images/icons/iconSmallTop.png" alt="" />
-                            </a>
+                <div className={`siteFooterBar `}>
+                    <div className="center">
+                        <div className='copyRight'>
+                            <img src="http://tonyblack.biz/images/logos/siteFooterBarLogo.png" alt="" />
+                            <p> Jabber: sell-cc@jabber.no or sell-cc@exploit.im ICQ:727273264 <br />2010-2018 &copy; Sell cc. All rights reserved.</p>
                         </div>
+                        <a className="backToTop" href="#">Back to Top
+                            <img src="http://tonyblack.biz/images/icons/iconSmallTop.png" alt="" />
+                        </a>
                     </div>
+                </div>
             </div>
 
         </div>

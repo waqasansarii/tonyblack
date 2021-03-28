@@ -1,13 +1,10 @@
 .change_pass_main_div{
     margin: 30px auto;
-    /* border: 2px solid; */
-    /* text-align: center; */
 }
 .change{
     width: 150px;
 }
 .change_table{
-    /* width: 100%; */
     margin: 0px auto;
 }
 .change_pass_main_div::-webkit-scrollbar{

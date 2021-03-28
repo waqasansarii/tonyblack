@@ -3,7 +3,6 @@
     margin: 20px auto;
 }
 .error_ul{
-    /* border: 2px solid red; */
     background: #fce9e9;
     border: 1px solid #f00;
     border-radius: 3px;
@@ -15,13 +14,11 @@
 .error_ul::marker{
     color: #f00;
     font-size: 23px;
-    /* content: ; */
 }
 
 @media screen and (max-width:990px){
     .main_error_div{
         width: 100%;
-        /* margin: 20px 20px; */
     }
     .error_ul{
         margin: 5px 20px;

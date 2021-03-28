@@ -1,15 +1,13 @@
 import React from 'react'
 import '../styles/login_signup.css'
-import { Link,useHistory } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
 const  Login=() =>{
 
 
-    // const history = useHistory()
     const handleSubmit = (e)=>{
         e.preventDefault();
-        // history.push('/register_success')
      }
     return (
 
