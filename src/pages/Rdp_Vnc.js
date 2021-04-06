@@ -20,7 +20,7 @@ const Rdp_Vnc = () => {
             <Heading head='VNC/DS'/>
             <Rdp_Vnc_Filter />
             <Table_two  head={RDP_VNC_TableData} body={RDP_VNC_TableData} />
-            <Error error='•  No Result' />
+            {/* <Error error='•  No Result' /> */}
             <Footer />
         </div>
     )

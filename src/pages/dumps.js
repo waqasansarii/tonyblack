@@ -31,7 +31,7 @@ const Dumps = () => {
                     </select>
                 </div>
             </div>
-            <Error error='•  No Result' />
+            {/* <Error error='•  No Result' /> */}
             <Footer />
         </div>
     )

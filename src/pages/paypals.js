@@ -31,7 +31,7 @@ const Paypals = () => {
                     </select>
                 </div>
             </div>
-           <Error error='•  No Result'/>     
+           {/* <Error error='•  No Result'/>      */}
            <Footer />
         </div>
     )

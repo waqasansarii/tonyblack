@@ -1,15 +1,28 @@
-import React, { useState } from 'react'
+import React,  { useEffect, useState } from 'react'
 import '../styles/balance.css'
 import SubmitButton from '../submitButton'
 import Error from '../error/error'
+import axios from "axios";
 
 const Balance = () => {
 
     let [error, setError] = useState(false)
-
+    let [coin,setCoins] = useState('')
     const handleError = () => {
            setError(true)
     }
+    useEffect(() => {
+        axios
+        .get(
+          "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=1&page=1&sparkline=false"
+        )
+        .then((res) => {
+            setCoins(res.data[0]);
+            console.log("coins", res.data);
+            
+          })
+          .catch((error) => console.log(error));
+      }, []);
 
     return (
         <div className='balance_container'>
@@ -25,7 +38,7 @@ const Balance = () => {
                     null
                 }
 
-                <p className='dollar_equal'>1$ = 0.000033 BTC</p>
+                <p className='dollar_equal'>1$ = {coin.current_price} BTC</p>
                 <form className='dollar_form'>
                     <label htmlFor="bin">SUM: </label>
                     <input className='bin_input dlr' type="text" defaultValue='1.00' />

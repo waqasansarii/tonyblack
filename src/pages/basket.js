@@ -34,7 +34,7 @@ const Basket = () => {
                 buyButton={<SubmitButton type='button' value='Buy and check' />}
                 Delete={<SubmitButton type='button' value='Delete' className='dlt_btn' />}
             />
-            <Error error='•  Basket is empty' />
+            {/* <Error error='•  Basket is empty' /> */}
             <div className='basket_price_container'>
                 <div className='basket_price_div'>
                     <p className='basket_price'>

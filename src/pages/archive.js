@@ -14,7 +14,7 @@ const Archive = () => {
             <MainNavbarComp />
             <Heading head='Archive' />
             <Basket_links link='/archive' />
-            <Error error='•  You have no shopping' />
+            {/* <Error error='•  You have no shopping' /> */}
             <Footer className='padding_bottom'/>
         </div>
     )
