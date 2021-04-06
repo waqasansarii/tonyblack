@@ -19,9 +19,8 @@ const Table = ({ head, body, button, buyButton, Delete }) => {
                     <tbody>
                         {body.body && body.body.map((val, i) => (
                             <tr key={i}>
-
-                                <td  >{val.bin ? val.bin : null}</td>
-                                <td  >{val.exp}</td>
+                                <td  >{val.bin ? val.bin : val.country}</td>
+                                <td  >{val.exp? val.exp: val.state}</td>
                                 <td >{val.name}</td>
                                 <td >{val.tick}</td>
                                 <td >{val.country}</td>

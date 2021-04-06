@@ -24,10 +24,10 @@ const Signup = () => {
                         </ul> */}
                         <form onSubmit={handleSubmit} >
                             <div>
-                                <input name="login" type="text" maxlength="18" placeholder="Login" value="" />
+                                <input name="login" type="text" maxlength="18" placeholder="Login"  />
                                 <input name="pass" type="password" placeholder="Password" />
                                 <input name="pass2" type="password" placeholder="Password (confirm)" />
-                                <input name="email" type="text" maxlength="50" placeholder="E-Mail" value="" />
+                                <input name="email" type="text" maxlength="50" placeholder="E-Mail"  />
                                 <input name="capcha" type="text" maxlength="5" placeholder="Code from the image" className='captcha_input' />
                             </div>
                             <Link to='/register_success'>

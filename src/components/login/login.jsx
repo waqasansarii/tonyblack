@@ -21,7 +21,7 @@ const  Login=() =>{
                         </ul> */}
                         <form onSubmit={handleSubmit}>
                             <div>
-                                <input name="login" type="text" maxlength="18" placeholder="Login" value="" />
+                                <input name="login" type="text" maxlength="18" placeholder="Login" />
                                 <input name="pass" type="password" placeholder="Password" />
                                 <input name="capcha" type="text" maxlength="5" placeholder="Code from the image" className='captcha_input' />
                             </div>

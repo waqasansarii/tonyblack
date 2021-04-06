@@ -3,7 +3,7 @@ import Error from '../components/error/error'
 import Footer from '../components/footer/footer'
 import Heading from '../components/heading/heading'
 import MainNavbarComp from '../components/navbar'
-import Table from '../components/table/table'
+import Table_two from '../components/table/table_twol'
 import {Bank_TableData} from '../data/tableData'
 import '../components/styles/bank.css'
 
@@ -17,7 +17,7 @@ const Bank = () => {
         <div>
             <MainNavbarComp />
             <Heading head='Banks accounts' />
-            <Table head={Bank_TableData} body={Bank_TableData}  />
+            <Table_two head={Bank_TableData} body={Bank_TableData}  />
             <div>
                 <div className='row_div'>
                     <p>Row at page: </p>

@@ -4,7 +4,7 @@ import Footer from '../components/footer/footer'
 import Heading from '../components/heading/heading'
 import MainNavbarComp from '../components/navbar'
 import Paypal_filter from '../components/paypal_filter/paypal_filter'
-import Table from '../components/table/table'
+import Table_two from '../components/table/table_twol'
 import {paypal_TableData} from '../data/tableData'
 
 const Paypals = () => {
@@ -19,7 +19,7 @@ const Paypals = () => {
            <MainNavbarComp />
            <Heading head='Paypals' />
            <Paypal_filter />
-           <Table head={paypal_TableData} body={paypal_TableData} />
+           <Table_two head={paypal_TableData} body={paypal_TableData} />
            <div>
                 <div className='row_div'>
                     <p>Row at page: </p>

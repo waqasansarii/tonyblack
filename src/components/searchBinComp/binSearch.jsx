@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/search_bin.css'
-import Table from '../table/table'
+import Table_two from '../table/table_twol'
 import { searchBinTableData } from '../../data/tableData'
 import SubmitButton from '../submitButton'
 
@@ -24,7 +24,7 @@ function BinSearch() {
                     <SubmitButton value='Search' type='button' onclick={() => handleTableShow()} />
                 </form>
                 {show ?
-                    <Table head={searchBinTableData} body={searchBinTableData} />
+                    <Table_two head={searchBinTableData} body={searchBinTableData} />
                     :
                     null
                 }
