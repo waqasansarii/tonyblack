@@ -38,7 +38,7 @@ const Balance = () => {
                     null
                 }
 
-                <p className='dollar_equal'>1$ = {coin.current_price} BTC</p>
+                <p className='dollar_equal'>1$ = {(1/coin.current_price).toFixed(6)} BTC</p>
                 <form className='dollar_form'>
                     <label htmlFor="bin">SUM: </label>
                     <input className='bin_input dlr' type="text" defaultValue='1.00' />
